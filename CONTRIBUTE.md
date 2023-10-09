@@ -1,7 +1,7 @@
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
-Stape 1: Download, install, and configure [PHP](https://www.php.net/downloads) and [Composer](https://getcomposer.org/) to your local computer.
+Step 1: Download, install, and configure [PHP](https://www.php.net/downloads) and [Composer](https://getcomposer.org/) to your local computer.
 
 Step 2: Now Fork a repo
 
