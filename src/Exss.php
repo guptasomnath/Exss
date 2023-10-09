@@ -138,16 +138,11 @@ class Res
 
     public static function sendJson(array $json)
     {
-        return ['json', self::$statusCode, array('Content-Type' => 'application/json'), $json];
+        return ['json', self::$statusCode, array('Content-Type' => 'application/json'), json_encode($json)];
     }
 
     public static function render(string $html)
     {
         return ['html', self::$statusCode,  array('Content-Type' => 'text/html; charset=utf-8'),  $html];
-    }
-
-    public static function chunks($data)
-    {
-        return ['chunks', self::$statusCode,  array('Content-Type' => 'text/html; charset=utf-8'),  $data];
     }
 }
